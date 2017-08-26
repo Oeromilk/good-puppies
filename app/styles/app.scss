@@ -1,0 +1,158 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+//Possible Color Scheme
+$white-color: #FFFFFF;
+$orange-color: #F26101;
+$light-color: #D9E8F5;
+$medium-color: #91BED4;
+$dark-color: #304269;
+$grey-color: #31353D;
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+#navElement {
+  z-index: 99999;
+  transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+#home-cara {
+  position: relative;
+}
+
+.navbar {
+  background-color: rgba(168, 168, 168, 0.3);
+  border-bottom-color: transparent;
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navLinkStyle {
+  color: $orange-color !important;
+  font-size: 2.5em;
+}
+
+.navLinkStyle:hover {
+  color: black  !important;
+  border-bottom: solid 1px $orange-color;
+}
+
+.backgroundColor {
+  background-color: $grey-color;
+}
+.item {
+  position: relative;
+}
+
+.item img {
+  width: 100%;
+  object-fit: cover;
+  filter:opacity(.3);
+}
+
+.carouselBanner {
+  font-size: 5em;
+  color: $white-color;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow {
+  font-size: 5em;
+  color: $white-color;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.bounce {
+  @include animation(bounce 2s infinite);
+}
+
+.infoFilter {
+  filter: opacity(.3);
+}
+
+.bodyText {
+  color: $white-color;
+}
+
+.infoFilter {
+  max-height: 25em;
+}
+
+.infoRow {
+  height: 450px;
+}
+
+.secondRow {
+  background-color: $dark-color;
+}
+
+.thirdRow {
+  background: url("../images/info_img2.png") center no-repeat;
+}
+
+.infoIcon {
+  color: $orange-color;
+  font-size: 5em;
+}
+
+.infoCardStyle {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.fifthRow {
+  background-color: #eaeaea;
+}
+
+.pricingDetail {
+  padding-bottom: 25px;
+}
+
+.moneySize {
+  font-size: 2em;
+}
+
+.jumboNumbers {
+  font-size: 2em;
+}
+
+.underLineDetail {
+  border-bottom: solid .2em $light-color;
+}
