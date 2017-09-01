@@ -34,7 +34,7 @@ var HomeContainer = React.createClass({
                 <img src="./images/img_6.jpg" alt="Image of Dogs" />
               </div>
               <h1 className="carouselBanner">Good Puppies Dog Park</h1>
-              <div className="glyphicon glyphicon-chevron-down arrow bounce"></div>
+              <a href="#1stRow"><i className="fa fa-arrow-down arrow bounce"></i></a>
             </div>
           </div>
         </div>

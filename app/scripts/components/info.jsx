@@ -6,7 +6,7 @@ var InfoContainer = React.createClass({
   render: function(){
     return (
       <div>
-        <div className="row firstRow infoRow">
+        <div id="1stRow" className="row firstRow infoRow">
           <div className="col-md-6 "><img className="infoFilter" src="./images/info_img1.jpg"></img></div>
           <div className="col-md-3 text-center">
             <h3>Not Your Average Day Care</h3>
@@ -28,19 +28,19 @@ var InfoContainer = React.createClass({
         </div>
         <div className="row fourthRow">
           <div className="col-md-3 infoCardStyle text-center">
-            <span className="glyphicon glyphicon-time infoIcon" aria-hidden="true"></span>
+            <i className="fa fa-clock-o infoIcon"></i>
             <p className="lead">Our long hours provide excellent options for pick up and drop off.</p>
           </div>
           <div className="col-md-3 infoCardStyle text-center">
-            <span className="glyphicon glyphicon-credit-card infoIcon" aria-hidden="true"></span>
+            <i className="fa fa-credit-card  infoIcon"></i>
             <p className="lead">With multiple ways to pay it takes out the worry.</p>
           </div>
           <div className="col-md-3 infoCardStyle text-center">
-            <span className="glyphicon glyphicon-phone infoIcon" aria-hidden="true"></span>
+            <i className="fa fa-mobile infoIcon"></i>
             <p className="lead">Use mobile or desktop to interact with your dog.</p>
           </div>
           <div className="col-md-3 infoCardStyle text-center">
-            <span className="glyphicon glyphicon-camera infoIcon" aria-hidden="true"></span>
+            <i className="fa fa-camera infoIcon"></i>
             <p className="lead">Each dog gets a custom portrait.</p>
           </div>
         </div>
