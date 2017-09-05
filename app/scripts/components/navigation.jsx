@@ -1,6 +1,9 @@
 var React = require("react");
 var $ = require("jquery");
 
+var SignUpContainer = require("./credentials.jsx").SignUpContainer;
+var LogInContainer = require("./credentials.jsx").LogInContainer;
+
 var NavContainer = React.createClass({
   getInitialState: function(){
     return (
@@ -32,7 +35,7 @@ var NavContainer = React.createClass({
             <li><a className="navLinkStyle" href="#">Link</a></li>
             <li><a className="navLinkStyle" href="#">Link</a></li>
             <li><a className="navLinkStyle" href="#">Link</a></li>
-            <li><a className="navLinkStyle" href="#">Link</a></li>
+            <li><LogInContainer /></li>
           </ul>
         </div>
       </nav>

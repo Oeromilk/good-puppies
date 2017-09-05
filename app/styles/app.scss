@@ -71,6 +71,11 @@ img {
   position: relative;
 }
 
+.loginModalStyle {
+  padding: 25px;
+  background-color: $orange-color;
+}
+
 .fab {
   z-index: 99999999;
   position: fixed;
@@ -182,6 +187,7 @@ img {
 .navLinkStyle {
   color: $orange-color !important;
   font-size: 2.5em;
+  cursor: pointer;
 }
 
 .navLinkStyle:hover {
