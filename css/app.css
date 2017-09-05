@@ -5799,6 +5799,10 @@ img {
 #fabBody {
   position: relative; }
 
+.loginModalStyle {
+  padding: 25px;
+  background-color: #F26101; }
+
 .fab {
   z-index: 99999999;
   position: fixed;
@@ -5894,7 +5898,8 @@ img {
 
 .navLinkStyle {
   color: #F26101 !important;
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  cursor: pointer; }
 
 .navLinkStyle:hover {
   color: black  !important;
@@ -5976,4 +5981,5 @@ img {
 
 .underLineDetail {
   border-bottom: solid 0.2em #D9E8F5; }
+
 /*# sourceMappingURL=app.css.map */
